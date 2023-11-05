@@ -33,6 +33,7 @@ This project draws inspiration from the Encryption-Decryption project on Jet Bra
 **Exit**: Selecting this option will close the program.
 
 **Credits**
+
 This project draws inspiration from the Encryption-Decryption project on Jet Brains Academy.
 
 
