@@ -1,28 +1,31 @@
-# Search-Engine
+Search-Engine
+The Search-Engine project is designed to search a text file containing entries with three fields in each line, such as "Rashul Rajput 22bcs16545@cuchd.in". This program implements three different search algorithms: ANY, NONE, and ALL, to facilitate efficient and accurate searches.
 
-This project searches a text file that contains three fields in each line. An example would be
+Usage
+To use the program, follow the instructions below:
 
-"Rashul Rajput 22bcs16545@cuchd.in" .The program will search through the file using the algorithm of choice. Three algorithms are available, ANY, NONE, ALL.
+Prerequisites
+Ensure you have Java Development Kit (JDK) installed on your machine.
 
-**Usage**
-Explaining the arguments
---data
-this Main argument, and is responsible for specifying the text file to be searched within. For example, java --data text.txt
+Running the Program
+Run the program with the following command, specifying the text file to be searched within:
 
-**1- Find a person**
-The user will be prompt to choose from three different algorithms "ANY, NONE, ALL"
+scss
+Copy code
+java Search-Engine --data text.txt
+Functionality
+The program offers the following functionality:
 
-**ALL**, the program should print lines containing all the words from the query.
+Find a Person: Upon execution, the user is prompted to select from the three available search algorithms:
 
-**ANY**, the program should print the lines containing at least one word from the query.
+ALL: Print lines containing all the words from the query.
+ANY: Print lines containing at least one word from the query.
+NONE: Print lines that do not contain any words from the query.
+Print All People: This option displays all entries available in the text file.
 
-**NONE**, the program should print lines that do not contain words from the query at all.
+Exit: Selecting this option will close the program.
 
-**2- Print all people**
-Will print everything available in the text file.
+Credits
+This project draws inspiration from the Encryption-Decryption project on Jet Brains Academy.
 
-**0- Exit**
-Will close the program.
-
-**Credits**
-This program is based on the Encryption-Decryption project on Jet Brains Academy.
+Disclaime
