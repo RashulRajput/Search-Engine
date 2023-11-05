@@ -2,7 +2,7 @@
 
 This project searches a text file that contains three fields in each line. An example would be
 
-"Mohammad Arwani Mohammad.arwani@ogr.altinbas.edu.tr" .The program will search through the file using the algorithm of choice. Three algorithms are available, ANY, NONE, ALL.
+"Rashul Rajput 22bcs16545@cuchd.in" .The program will search through the file using the algorithm of choice. Three algorithms are available, ANY, NONE, ALL.
 
 Usage
 Explaining the arguments
